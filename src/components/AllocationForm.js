@@ -90,6 +90,7 @@ const AllocationForm = (props) => {
             required="required"
             type="number"
             id="cost"
+            min={0}
             value={cost}
             style={{ marginLeft: "2rem", size: 10 }}
             onChange={(event) => setCost(event.target.value)}
